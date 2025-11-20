@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    font-family: "Nunito Sans";
+}
+body{
+    background-color: #FCE4B6;
+    display: grid;
+    padding: 2em;
+}
+
+.arte, h1, section{
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+
+}
+
+span{
+    font-weight: bold;
+}
+.arte img{
+    scale: 200%;
+    image-rendering: pixelated;
+    max-height: 4em;
+}
+
+div{
+    justify-content: center;
+}
+section{
+    background-color: #2986BF;
+    color: white;
+    border-radius: 5em;
+    max-width: 70dvw;
+    padding: 3em;
+    font-size: larger;
+
+}
+
+.aparecer *{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+a{
+    background-color: #C4544A;
+    padding: .5em;
+    margin: 1em .2em;
+    border-radius: 1em;
+    transition: all 1s;
+    color: white;
+    text-decoration: none;
+    min-width: 20em;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+a:hover{
+    background-color: #E07D77;
+}
+
+
+.painel{
+    background-color: #0A704E;
+}
